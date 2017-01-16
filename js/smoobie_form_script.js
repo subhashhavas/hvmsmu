@@ -43,17 +43,29 @@ function hideFrame(frameName)
 	switch(frameName)
 	{
 		case 'formA1':
-			 jq$(document).find("input[name='First Name']").prev().hide();
-	 		 jq$(document).find("input[name='First Name']").hide();		
+			 // jq$(document).find("input[name='First Name']").prev().hide();
+	 		//  jq$(document).find("input[name='First Name']").hide();		
 
-	 		 jq$(document).find("input[name='Last Name']").prev().hide();
-	 		 jq$(document).find("input[name='Last Name']").hide();		
+	 		//  jq$(document).find("input[name='Last Name']").prev().hide();
+	 		//  jq$(document).find("input[name='Last Name']").hide();		
 
-	 		 jq$(document).find("input[name='Gender']").prev().hide();
-	 		 jq$(document).find("input[name='Gender']").hide();		
+	 		//  jq$(document).find("input[name='Gender']").prev().hide();
+	 		//  jq$(document).find("input[name='Gender']").hide();		
 
-	 		 jq$(document).find("input[name='User Category']").prev().hide();
-	 		 jq$(document).find("input[name='User Category']").hide();		
+	 		//  jq$(document).find("input[name='User Category']").prev().hide();
+	 		//  jq$(document).find("input[name='User Category']").hide();		
+
+	 		 jq$(document).find("input[name='First Name']").prev().closest('tr').hide();
+	 		 jq$(document).find("input[name='First Name']").closest('tr').hide();		
+
+	 		 jq$(document).find("input[name='Last Name']").prev().closest('tr').hide();
+	 		 jq$(document).find("input[name='Last Name']").closest('tr').hide();		
+
+	 		 jq$(document).find("input[name='Gender']").prev().closest('tr').hide();
+	 		 jq$(document).find("input[name='Gender']").closest('tr').hide();		
+
+	 		 jq$(document).find("input[name='User Category']").prev().closest('tr').hide();
+	 		 jq$(document).find("input[name='User Category']").closest('tr').hide();		
 		break;
 	}
 }
