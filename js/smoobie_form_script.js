@@ -1,6 +1,6 @@
 var jq$ = jQuery.noConflict();
 
-jq$(document).find("input[name='First Name']").prev().hide();
+			jq$(document).find("input[name='First Name']").prev().hide();
 	 		 jq$(document).find("input[name='First Name']").hide();		
 
 	 		 jq$(document).find("input[name='Last Name']").prev().hide();
