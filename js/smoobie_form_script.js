@@ -1,19 +1,11 @@
 var jq$ = jQuery.noConflict();
 
-			jq$(document).find("input[name='First Name']").prev().hide();
-	 		 jq$(document).find("input[name='First Name']").hide();		
+			
 
-	 		 jq$(document).find("input[name='Last Name']").prev().hide();
-	 		 jq$(document).find("input[name='Last Name']").hide();		
-
-	 		 jq$(document).find("input[name='Gender']").prev().hide();
-	 		 jq$(document).find("input[name='Gender']").hide();		
-
-	 		 jq$(document).find("input[name='User Category']").prev().hide();
-	 		 jq$(document).find("input[name='User Category']").hide();		
-
-//init();
-
+jq$(document).ready(function() 
+{
+	init();
+});	
 
 
 
