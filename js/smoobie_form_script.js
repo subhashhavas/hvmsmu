@@ -66,6 +66,9 @@ function hideFrame(frameName)
 
 	 		 jq$(document).find("input[name='User Category']").prev().closest('tr').hide();
 	 		 jq$(document).find("input[name='User Category']").closest('tr').hide();		
+
+	 		 jq$(document).find("input[name='E-mail Address']").prev().closest('tr').hide();
+	 		 jq$(document).find("input[name='E-mail Address']").closest('tr').hide();	
 		break;
 	}
 }
