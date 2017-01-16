@@ -1,7 +1,7 @@
 /* iPad Portrait / iPhone 5 Landscape */
 @media only screen and (min-width: 768px) and (max-width: 1022px), only screen and (min-device-width: 768px) and (max-device-width: 1022px) {
 
-	#nav-big,.redeem,.quiz{display:none;}
+	#nav-big,.redeem{display:none;}
 	#nav-small{display:table;}
 
 	.header{height:100px;}
@@ -95,7 +95,7 @@
 @media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
 
 	/*.body_home{padding-top:75px;}*/
-	#nav-big,.redeem,.quiz{display:none;}
+	#nav-big,.redeem{display:none;}
 	#nav-small{display:table;}
 
 	.header{height:75px !important;}
@@ -264,7 +264,7 @@ and (orientation:portrait){
 
 @media only screen and (min-width:1023px) and (max-width: 1199px) {
 
-	#nav-big,.redeem,.quiz{display:block;}
+	#nav-big,.redeem{display:block;}
 	#nav-small{display:none !important;}
 
 	.header .inner{margin-right:0px;margin-left:50px;}
@@ -351,7 +351,7 @@ and (orientation:portrait){
 
 @media only screen and (min-width:1200px) and (orientation:landscape){
 
-	#nav-big,.redeem,.quiz{display:block;}
+	#nav-big,.redeem{display:block;}
 	#nav-small{display:none !important;}
 
 	.header .inner{margin-right:110px;margin-left:107px;}
@@ -386,8 +386,8 @@ and (orientation:portrait){
 	.confirm_2 .right_section img{position:relative;margin-left:0}
 }
 
-@media only screen and (min-width: 1300px){
-	.section_1 .left_section{width: 100%}
+@media only screen and (min-width: 1600px){
+	.section_1 .left_section{width: 80%}
 	.section_1 .left_section .content{width: 45%}
 	.reg_section .left_section{width: 48%;}
 }
