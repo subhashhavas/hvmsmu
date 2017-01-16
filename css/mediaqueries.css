@@ -1,0 +1,393 @@
+/* iPad Portrait / iPhone 5 Landscape */
+@media only screen and (min-width: 768px) and (max-width: 1022px), only screen and (min-device-width: 768px) and (max-device-width: 1022px) {
+
+	#nav-big,.redeem,.quiz{display:none;}
+	#nav-small{display:table;}
+
+	.header{height:100px;}
+	.header .inner .menu_bttn{display:block;}
+	.menu_pop{display:none;}
+
+	.header .inner{margin-right:0px;margin-left:50px;}
+	.header .inner .logo img{width:auto;height:auto}
+	.header .inner ul#nav-small li{width:152px;height:100px;font-size:11px}
+	.header .inner ul#nav-small li img{width:auto;height:44px;}
+
+	.section_title{margin-left: -25px;z-index:5}
+
+	.section_1 .left_section{margin-left: 50px;}
+	.section_1 .left_section .title{margin-left: -25px;background:url(../images/section_1_title_bg_768.png) no-repeat;height:145px;}
+	.section_1 .left_section .title .text{width:auto;top: 30px;}
+	.section_1 .left_section .content{margin-top: -5px;width: 475px;}
+	.section_1 .left_section .content div{width:350px;}
+	.section_1 .left_section .content .button{width:auto;padding:0 25px;margin-bottom:160px;}
+	.section_1 .smu_openhouse{width: 400px;}
+	.section_1 .smu_openhouse img{width: auto; height:auto}
+	.section_1 .smu_openhouse .img_big{display:none;}
+	.section_1 .smu_openhouse .img_768{display:block;}
+
+	.section_2 .section_gra,
+	.section_3 .section_gra,
+	.section_4 .section_gra,
+	.section_5 .section_gra,
+	.section_6 .section_gra,
+	.section_7 .section_gra,
+	.confirm_section{padding: 50px 50px 0 50px !important;}
+	.confirm_2{padding-left:50px !important;}
+	.reg_section{padding-left:50px !important;}
+
+	.section_2 .section_gra ul li{width:49.85%;}
+	.section_2 .section_gra ul li:nth-child(2){margin-right:0;}
+	.section_2 .section_gra ul li:nth-child(6){margin-right:0;}
+
+	.section_3 .container table{display:none;}
+	.section_3 .container_768{display:block;}
+
+	.section_4 ul li:first-child{width: 250px;}
+	.section_4 ul li{padding: 35px 35px 35px 30px;}
+	.section_4 ul li .campus_tours div{width: 275px;}
+
+	.section_5 .left_section{margin-bottom:0px;}
+	.section_5 .right_section {width: auto;position:relative;margin-right:-50px;}
+	.section_5 .right_section img {width: 100%; height:auto;}
+
+	.section_6 h3{font-size: 22px;}
+	.section_6 h3 div{display:block;}
+	.section_6 ul li{width: 49.7%;height:302px;}
+	.section_6 ul li:nth-child(2){margin-right:0}
+	.section_6 ul li:last-child{width: 100%;height:auto}
+
+	.section_7 ul li{width:50%;}
+	.section_7 ul li:nth-child(3){clear:left}
+	.section_7 ul li:nth-child(4){clear:none}
+	.section_7 ul.level_1 li:nth-child(3){clear:none}
+	.section_7 ul li .content span{display:block;margin-left:8px;}
+	
+
+	.confirm_section .left_section{width:360px;}
+	.confirm_section .right_section{width: 280px;position:absolute;right:50px;bottom:0}
+	.confirm_section .right_section img{width:100%;height:auto;}
+
+	.confirm_2 .left_section{width:315px;padding-top:50px;}
+	.confirm_2 .left_section h2{margin-bottom:10px}
+	.confirm_2 .left_section p{margin-bottom:20px}
+	.confirm_2 .right_section{width: 359px;overflow:hidden;}
+	.confirm_2 .right_section .img_desktop{display:none;}
+	.confirm_2 .right_section .img_768{display:block;}
+
+	.reg_section .right_section{width:250px;position:absolute;right:0;top:150px;}
+	.reg_section .right_section .banner{display:none;}
+	.reg_section .banner_small{display:block;}
+	.reg_section .left_section{width:500px}
+
+	.reg_section .sponsor li:nth-child(3){clear:none}
+	.reg_section .sponsor li:nth-child(7){margin-right:10px}
+	.reg_section .sponsor li:nth-child(12){margin-right:0}
+
+	.footer {padding:25px 50px 25px 50px;}
+	.footer .links{float:none;display:block;margin-bottom:25px;}
+
+	.bot_fh{bottom:178px;}
+	
+}
+
+
+@media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+
+	/*.body_home{padding-top:75px;}*/
+	#nav-big,.redeem,.quiz{display:none;}
+	#nav-small{display:table;}
+
+	.header{height:75px !important;}
+	.header .inner .menu_bttn{display:block;}
+	.menu_pop{display:none;top:65px}
+	.menu_pop ul{margin-top: 0px;}
+	.menu_pop ul li{font-size: 14px;padding: 15px 0;float: none;width: 100%;}
+
+	.header .inner{margin-right:0px;margin-left:10px;height:75px}
+	.header .inner .logo{padding-top:8px;}
+	.header .inner .logo img{width:auto;height:53px;}
+
+	.header .inner .logo .smu_logo_small{display:block;}
+	.header .inner .logo .smu_logo_big{display:none;}
+	.header .inner ul#nav-small li{width:100px;height:74px !important;font-size:9px}
+	.header .inner ul#nav-small li img{width:auto;height:30px;}
+
+	
+
+	.header .inner .menu_bttn{width:26px; height:27px; margin:25px 10px 0; background-size:100% }
+
+	.header .inner .menu_bttn_close{width:26px; height:27px; margin:22px 10px 0;background-size:100% }
+
+	.section_title{margin-left:-10px;margin-right:0px;z-index:5;background:url(../images/section-title-small.png) bottom left no-repeat;height:65px;}
+	.section_title .inner{margin-left:17px;height:40px;line-height:40px;}
+	.section_title .inner div{font-size:18px;padding: 0 20px 0 5px;height:40px;line-height:40px;}
+
+	.section_3 .section_title,
+	.section_5 .section_title{height:83px;}
+	.section_3 .section_title .inner,
+	.section_5 .section_title .inner{height:60px;line-height:60px;}
+	.section_3 .section_title .inner div,
+	.section_5 .section_title .inner div{height:60px;line-height:60px;}
+
+	.section_1 {margin-top:75px;}
+	.section_1 .left_section{width:100%;margin-left: 0px;padding:40px 20px 20px;}
+	.section_1 .left_section .title{margin-left: -10px;background:url(../images/section_1_title_bg_small.png) no-repeat;width: auto;height:73px;}
+	.section_1 .left_section .title .text{width: auto; top: 5px; font-size: 18px; height: 45px; left: 17px;}
+	.section_1 .left_section .content{margin-top: 0px;width: 100%;}
+	.section_1 .left_section .content h1{font-size: 16px;margin-top:20px;}
+	.section_1 .left_section .content div{width:100%;}
+	.section_1 .left_section .content .button{width:auto;padding:0 25px;margin-bottom:30px;}
+	.section_1 .smu_openhouse .img_big{display:none;}
+	.section_1 .smu_openhouse .img_768{display:none;}
+	.section_1 .img_small{display:block;margin:0 auto}
+
+	.section_2 .section_gra,
+	.section_3 .section_gra,
+	.section_4 .section_gra,
+	.section_5 .section_gra,
+	.section_6 .section_gra,
+	.section_7 .section_gra,
+	.confirm_section{padding: 25px 20px 0 20px !important;}
+	.confirm_2{padding-left:0px !important;}
+	.reg_section{padding-left:20px !important;}
+
+	.section_3 .section_title .inner div,
+	.section_5 .section_title .inner div{height:auto;line-height:normal;padding-top:10px;}
+
+	.section_2 .section_gra ul{top:20px;left:0;margin-bottom:50px;}
+	.section_2 .section_gra ul li{width:100%;margin-left:0;margin-bottom:2px;padding:15px;}
+	.section_2 .section_gra ul li .container{height:auto;display:block;padding:0 !important;}
+	.section_2 .section_gra ul li .container h3{font-size:12px;}
+	.section_2 .section_gra ul li .container .img{float: left;width:auto;height:55px;margin-bottom:0}
+	.section_2 .section_gra ul li .container .text{width: 160px;float: right;text-align: center;}
+
+	.section_3 .section_title{margin-top:0;}
+	.section_3 .container h3{font-size:16px;}
+	.section_3 .container table{display:none;}
+	.section_3 .container_768{display:none;}
+	.section_3 .container_small{display:block;}
+	.section_3 .button{margin-bottom:50px;}
+
+	.section_4 .container{top:20px;left:0;}
+	.section_4 ul li:first-child{width: 100%;height:196px;padding:20px}
+	.section_4 ul li:first-child img,.section_4 ul li:first-child img.pakimg{width:auto;height:100%}
+	.section_4 ul li{padding: 35px 35px 35px 30px;height:auto;display:block}
+	.section_4 ul li h3{font-size:16px;}
+	.section_4 ul li .campus_tours div{width: 70%;}
+	
+
+	.section_5 {overflow:hidden}
+	.section_5 .left_section{margin-bottom:0px;width:100%;}
+	.section_5 .festiv_pic{display:block;width:150%;height:auto;margin-left:-100px;margin-bottom:30px;}
+	.section_5 .right_section {display:none}
+
+	.section_6 h3{font-size: 16px;}
+	.section_6 h3 div{display:block;}
+	.section_6 ul li{width: 100%;height:auto;margin:0 0 2px}
+	.section_6 ul li:nth-child(2){margin-right:0}
+	.section_6 ul li:last-child{width: 100%;height:auto}
+	.section_6 ul li .locate{margin-bottom: 2px;}
+
+	.section_7 ul li{width:100%;}
+	.section_7 ul li .content{width:180px;}
+	.section_7 ul li .content span{display:block;margin-left:8px;}
+
+	.confirm_section .left_section{width:100%;}
+	.confirm_section .left_section h2{font-size: 18px;}
+	.confirm_section .left_section .content .contact_link{display:block;margin-bottom:50px}
+	.confirm_section .right_section{width:120px;position:absolute;right:0px;bottom:0}
+	.confirm_section .right_section img{width:100%;height:auto;}
+	.tnc .right_section{width:120px;position:relative !important;right:0px;bottom:0}
+
+	.confirm_2 .left_section{width:100%;padding:50px 10px;}
+	.confirm_2 .left_section h2{margin-bottom:10px}
+	.confirm_2 .left_section p{margin-bottom:20px}
+	.confirm_2 .right_section{width: 100%;float:none;overflow:hidden;}
+	.confirm_2 .right_section .img_desktop{display:none;}
+	.confirm_2 .right_section .img_768{display:block;width:100%;height:auto;}
+
+	.reg_section .left_section .iframe{height:1350px}
+	
+	.reg_section .right_section{width:100px;position:absolute;right:0;top:280px;}
+	.reg_section .right_section .banner{display:none;}
+	.reg_section .banner_small{display:block;}
+	.reg_section .left_section{width:95%}
+
+	.reg_section .sponsor li:nth-child(3){clear:none}
+	.reg_section .sponsor li:nth-child(7){margin-right:10px}
+	.reg_section .sponsor li:nth-child(12){margin-right:0}
+
+	.button{height:44px;line-height:44px;font-size:14px;padding:0 25px;}
+
+	.footer {padding:25px 10px 25px 10px;font-size: 14px;}
+	.footer .links{float:none;display:block;margin-bottom:25px;}
+	.footer div{font-size:14px;}
+
+	.top{width:61px;height:51px;}
+	.top .img_big{display:none;}
+	.top .img_small{display:block;}
+	.bot_fh{bottom:214px;}
+
+	.section_6 .map{display:none}
+	.section_6 .map_small{display:block}
+
+}
+
+@media only screen and (max-width: 767px) and (orientation:landscape), only screen and (max-device-width: 767px) and (orientation:landscape) {
+
+	.menu_pop ul li {padding: 10px 0;float: left;width: 50%;}
+	.bot_fh{bottom:174px;}
+
+}
+
+@media only screen and (max-width: 767px) and (orientation:portrait), only screen and (max-device-width: 767px) and (orientation:portrait) {
+
+	.section_4 ul li .campus_tours div p span{display:block;margin-left:8px;}
+
+}
+
+@media only screen and (max-width: 400px) { .reg_section .right_section{top:220px;} }
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (orientation:portrait){
+	.footer_confirm {width: 100%;position: absolute;bottom: 0;}
+}
+
+@media only screen and (min-width: 1600px) {  
+    .footer_confirm{ position: fixed; width: 100%; bottom: 0; left: 0; }
+}
+
+/*Desktop*/
+
+@media only screen and (min-width:1023px) and (max-width: 1199px) {
+
+	#nav-big,.redeem,.quiz{display:block;}
+	#nav-small{display:none !important;}
+
+	.header .inner{margin-right:0px;margin-left:50px;}
+	.header .inner .menu_bttn{display:none;}
+	.header .inner ul li{width: 130px;}
+	.menu_pop{display:none !important;}
+
+	.section_title{margin-left: -25px;z-index:5}
+
+	.section_1 .left_section{margin-left: 50px;}
+	.section_1 .left_section .title{margin-left: -25px;background:url(../images/section_1_title_bg_new.png) no-repeat;height:193px;}
+	.section_1 .left_section .title .text{width:270px;top: 38px;}
+	.section_1 .left_section .content{margin-top: -5px;width: 475px;}
+	.section_1 .left_section .content div{width:auto;}
+	.section_1 .left_section .content .button{width:362px;padding:0;margin-bottom:40px;}
+	.section_1 .smu_openhouse{width: 500px;}
+	.section_1 .smu_openhouse img{width: 100%; height:auto}
+	.section_1 .smu_openhouse .img_big{display:block;}
+	.section_1 .smu_openhouse .img_768{display:none;}
+
+	.section_2 .section_gra,
+	.section_3 .section_gra,
+	.section_4 .section_gra,
+	.section_5 .section_gra,
+	.section_6 .section_gra,
+	.section_7 .section_gra,
+	.confirm_section{padding: 50px 50px 0 50px !important;}
+	.confirm_2{padding-left:50px !important;}
+	.reg_section{padding-left:50px !important;}
+
+	.section_2 .section_gra ul li{width:24.85%;}
+	.section_2 .section_gra ul li:nth-child(2){margin-right:0.2%;}
+	.section_2 .section_gra ul li:nth-child(6){margin-right:0.2%;}
+
+	.section_3 .container table{display:block;}
+	.section_3 .container_768{display:none;}
+
+	.section_4 ul li:first-child{width: 350px;}
+	.section_4 ul li{padding: 35px 150px 35px 65px;}
+	.section_4 ul li .campus_tours div{width: 290px;}
+
+	.section_5 .left_section{margin-bottom:0;}
+	.section_5 .right_section {width: 535px;position:absolute;margin-right:0px;}
+	.section_5 .right_section img {width: 100%; height:auto;}
+
+	.section_6 h3{font-size: 22px;}
+	.section_6 h3 div{display:inline;}
+	.section_6 ul li{width: 26.6%;height:324px;}
+	.section_6 ul li:nth-child(2){margin-right:0.5%}
+	.section_6 ul li:last-child{width: 45%;height:324px;}
+
+	.section_7 ul li{width:33.33%;}
+	.section_7 ul li:nth-child(3){clear:none}
+	.section_7 ul li:nth-child(4){clear:left}
+	.section_7 ul li .content span{display:block;margin-left:8px;}
+
+	.confirm_section .left_section{width:525px;}
+	.confirm_section .right_section{width: 345px;}
+	.confirm_section .right_section img{width:auto;height:auto;}
+	
+	.confirm_2 .left_section{width:450px;padding-top:100px;}
+	.confirm_2 .left_section h2{margin-bottom:20px}
+	.confirm_2 .left_section p{margin-bottom:35px}
+	.confirm_2 .right_section{width: 500px;overflow:hidden;}
+	.confirm_2 .right_section img{position:relative;margin-left:-55px}
+	.confirm_2 .right_section .img_desktop{display:block;}
+	.confirm_2 .right_section .img_768{display:none;}
+
+	.reg_section .right_section{width:450px;position:inherit}
+	.reg_section .right_section .banner{display:block;}
+	.reg_section .banner_small{display:none;}
+	.reg_section .left_section{width:500px}
+
+	.reg_section .sponsor li:nth-child(3){clear:left}
+	.reg_section .sponsor li:nth-child(7){margin-right:10px}
+	.reg_section .sponsor li:nth-child(12){margin-right:0}
+
+	.footer {padding:25px 50px 25px 50px;}
+	.footer .links{float:right;display:inline;margin-bottom:0px;}
+
+	.bot_fh{bottom:108px;}
+
+}
+
+@media only screen and (min-width:1200px) and (orientation:landscape){
+
+	#nav-big,.redeem,.quiz{display:block;}
+	#nav-small{display:none !important;}
+
+	.header .inner{margin-right:110px;margin-left:107px;}
+	.header .inner .menu_bttn{display:none;}
+	.menu_pop{display:none !important;}
+
+	.section_title{margin-left: -67px;}
+
+	.section_1 .left_section{margin-left: 107px;}
+	.section_1 .left_section .title{margin-left: -72px;}
+	.section_1 .left_section .content{margin-top: -25px;}
+	.section_1 .smu_openhouse{width: 618px;}
+
+	.section_2 .section_gra,
+	.section_3 .section_gra,
+	.section_4 .section_gra,
+	.section_5 .section_gra,
+	.section_6 .section_gra,
+	.section_7 .section_gra,
+	.confirm_section{padding: 50px 110px 0 107px !important;}
+	.confirm_2{padding-left:107px !important;}
+
+	.section_4 ul li .campus_tours div{width: 350px;}
+
+	.section_5 .right_section {width: 690px;}
+
+	.section_6 h3{font-size: 24px;}
+	.section_6 ul li{width: 24.60%;}
+	.section_6 ul li:last-child{width: 49%;}
+	
+	.confirm_2 .right_section{width: 599px;}
+	.confirm_2 .right_section img{position:relative;margin-left:0}
+}
+
+@media only screen and (min-width: 1300px){
+	.section_1 .left_section{width: 100%}
+	.section_1 .left_section .content{width: 45%}
+	.reg_section .left_section{width: 48%;}
+}
